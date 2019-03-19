@@ -22,7 +22,7 @@
 #
 
 # Include AOSiP common configuration
-include vendor/aosip/config/common_full_phone.mk
+include vendor/dot/config/common.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-PRODUCT_NAME := aosip_blueline
+PRODUCT_NAME := dot_blueline
 PRODUCT_DEVICE := blueline
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 3
