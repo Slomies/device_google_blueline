@@ -1,0 +1,29 @@
+[
+ {
+   
+   "repository":  "Slomies/device_google_crosshatch",
+   "target_path": "device/google/crosshatch"
+   "branch":      "pie"
+ },
+ {
+   "repository":  "Slomies/device_google_crosshatch-sepolicy",
+   "target_path": "device/google/crosshatch-sepolicy"
+   "branch":      "pie"
+ },
+ {
+   "repository":  "Slomies/kernel_google_bluecross",
+   "target_path": "kernel/google/bluecross"
+   "branch":      "pie"
+ },
+ {
+   "repository":  "Slomies/vendor_google",
+   "target_path": "vendor/google"
+   "branch":      "pie"
+ },
+ {
+   "remote": "gitlab",
+   "repository": "DirtyUnicorns/android_vendor_pixelgapps",
+   "target_path": "vendor/pixelgapps",
+   "branch": "p9x"
+ }
+]
